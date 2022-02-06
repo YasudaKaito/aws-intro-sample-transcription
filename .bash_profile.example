@@ -1,0 +1,12 @@
+# サンプルアプリ用の設定
+export SECRET_KEY_BASE=作成したシークレットキー
+export AWS_INTRO_SAMPLE_DATABASE_PASSWORD=設定したパスワード
+export AWS_INTRO_SAMPLE_HOST=ロードバランサーにつけたCNAME
+export AWS_INTRO_SAMPLE_S3_REGION=画像保存用のS3があるリージョン
+export AWS_INTRO_SAMPLE_S3_BUCKET=画像保存用のS3のバケット
+export AWS_INTRO_SAMPLE_REDIS_ADDRESS=ElastiCacheのアドレス
+export AWS_INTRO_SAMPLE_SMTP_DOMAIN=Amazon SESのドメイン
+export AWS_INTRO_SAMPLE_SMTP_ADDRESS=Amazon SESのアドレス
+export AWS_INTRO_SAMPLE_SMTP_USERNAME=SMTPユーザー
+export AWS_INTRO_SAMPLE_SMTP_PASSWORD=SMTPパスワード
+
